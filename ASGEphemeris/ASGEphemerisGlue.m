@@ -9,7 +9,7 @@
 #import "sweph.h"
 
 static NSBundle *_SWEDataFilesGetBundle() {
-    return [NSBundle bundleWithIdentifier:@"com.varianceinteractive.SwissEphemeris"];
+    return [NSBundle bundleWithIdentifier:@"com.varianceinteractive.ASGEphemeris"];
 }
 
 static NSURL *SWEDataFilesGetFrameworkURL() {
