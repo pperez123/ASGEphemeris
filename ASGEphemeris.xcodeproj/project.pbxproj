@@ -9,7 +9,32 @@
 /* Begin PBXBuildFile section */
 		0468E43926C1FCAB00628ED4 /* ASGEphemeris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0468E42F26C1FCAB00628ED4 /* ASGEphemeris.framework */; };
 		0468E43E26C1FCAB00628ED4 /* ASGEphemerisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468E43D26C1FCAB00628ED4 /* ASGEphemerisTests.swift */; };
-		0468E44026C1FCAB00628ED4 /* ASGEphemeris.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E43226C1FCAB00628ED4 /* ASGEphemeris.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0468E46D26C1FD3800628ED4 /* ASGEphemerisGlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468E44926C1FD3800628ED4 /* ASGEphemerisGlue.m */; };
+		0468E46E26C1FD3800628ED4 /* ASGEphemerisGlue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E44A26C1FD3800628ED4 /* ASGEphemerisGlue.h */; };
+		0468E46F26C1FD3800628ED4 /* swemptab.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E44C26C1FD3800628ED4 /* swemptab.h */; };
+		0468E47026C1FD3800628ED4 /* swemmoon.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E44D26C1FD3800628ED4 /* swemmoon.c */; };
+		0468E47126C1FD3800628ED4 /* swevents.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E44E26C1FD3800628ED4 /* swevents.h */; };
+		0468E47326C1FD3800628ED4 /* swehouse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E45026C1FD3800628ED4 /* swehouse.h */; };
+		0468E47426C1FD3800628ED4 /* swephexp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E45126C1FD3800628ED4 /* swephexp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0468E47526C1FD3800628ED4 /* sweph.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E45226C1FD3800628ED4 /* sweph.h */; };
+		0468E47626C1FD3800628ED4 /* swedate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E45326C1FD3800628ED4 /* swedate.h */; };
+		0468E47726C1FD3800628ED4 /* swehel.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E45426C1FD3800628ED4 /* swehel.c */; };
+		0468E47826C1FD3800628ED4 /* swejpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E45526C1FD3800628ED4 /* swejpl.h */; };
+		0468E47926C1FD3800628ED4 /* swephlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E45626C1FD3800628ED4 /* swephlib.h */; };
+		0468E47B26C1FD3800628ED4 /* swedll.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E45826C1FD3800628ED4 /* swedll.h */; };
+		0468E47C26C1FD3800628ED4 /* swehouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E45926C1FD3800628ED4 /* swehouse.c */; };
+		0468E47D26C1FD3800628ED4 /* swecl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E45A26C1FD3800628ED4 /* swecl.c */; };
+		0468E47E26C1FD3800628ED4 /* sweephe4.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E45B26C1FD3800628ED4 /* sweephe4.h */; };
+		0468E47F26C1FD3800628ED4 /* swenut2000a.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E45C26C1FD3800628ED4 /* swenut2000a.h */; };
+		0468E48126C1FD3800628ED4 /* sweph.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E45E26C1FD3800628ED4 /* sweph.c */; };
+		0468E48226C1FD3800628ED4 /* swedate.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E45F26C1FD3800628ED4 /* swedate.c */; };
+		0468E48526C1FD3800628ED4 /* swemplan.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E46226C1FD3800628ED4 /* swemplan.c */; };
+		0468E48626C1FD3800628ED4 /* swephlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E46326C1FD3800628ED4 /* swephlib.c */; };
+		0468E48726C1FD3800628ED4 /* swejpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E46426C1FD3800628ED4 /* swejpl.c */; };
+		0468E48826C1FD3800628ED4 /* sweodef.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468E46526C1FD3800628ED4 /* sweodef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0468E48B26C1FD3800628ED4 /* sepl_18.se1 in Resources */ = {isa = PBXBuildFile; fileRef = 0468E46A26C1FD3800628ED4 /* sepl_18.se1 */; };
+		0468E48C26C1FD3800628ED4 /* semo_18.se1 in Resources */ = {isa = PBXBuildFile; fileRef = 0468E46C26C1FD3800628ED4 /* semo_18.se1 */; };
+		0468E48D26C1FFA400628ED4 /* sweephe4.c in Sources */ = {isa = PBXBuildFile; fileRef = 0468E44F26C1FD3800628ED4 /* sweephe4.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +49,42 @@
 
 /* Begin PBXFileReference section */
 		0468E42F26C1FCAB00628ED4 /* ASGEphemeris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASGEphemeris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0468E43226C1FCAB00628ED4 /* ASGEphemeris.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASGEphemeris.h; sourceTree = "<group>"; };
 		0468E43326C1FCAB00628ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0468E43826C1FCAB00628ED4 /* ASGEphemerisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASGEphemerisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0468E43D26C1FCAB00628ED4 /* ASGEphemerisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASGEphemerisTests.swift; sourceTree = "<group>"; };
 		0468E43F26C1FCAB00628ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0468E44926C1FD3800628ED4 /* ASGEphemerisGlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASGEphemerisGlue.m; sourceTree = "<group>"; };
+		0468E44A26C1FD3800628ED4 /* ASGEphemerisGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASGEphemerisGlue.h; sourceTree = "<group>"; };
+		0468E44C26C1FD3800628ED4 /* swemptab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swemptab.h; sourceTree = "<group>"; };
+		0468E44D26C1FD3800628ED4 /* swemmoon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swemmoon.c; sourceTree = "<group>"; };
+		0468E44E26C1FD3800628ED4 /* swevents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swevents.h; sourceTree = "<group>"; };
+		0468E44F26C1FD3800628ED4 /* sweephe4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sweephe4.c; sourceTree = "<group>"; };
+		0468E45026C1FD3800628ED4 /* swehouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swehouse.h; sourceTree = "<group>"; };
+		0468E45126C1FD3800628ED4 /* swephexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swephexp.h; sourceTree = "<group>"; };
+		0468E45226C1FD3800628ED4 /* sweph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweph.h; sourceTree = "<group>"; };
+		0468E45326C1FD3800628ED4 /* swedate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swedate.h; sourceTree = "<group>"; };
+		0468E45426C1FD3800628ED4 /* swehel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swehel.c; sourceTree = "<group>"; };
+		0468E45526C1FD3800628ED4 /* swejpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swejpl.h; sourceTree = "<group>"; };
+		0468E45626C1FD3800628ED4 /* swephlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swephlib.h; sourceTree = "<group>"; };
+		0468E45726C1FD3800628ED4 /* swephgen4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swephgen4.c; sourceTree = "<group>"; };
+		0468E45826C1FD3800628ED4 /* swedll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swedll.h; sourceTree = "<group>"; };
+		0468E45926C1FD3800628ED4 /* swehouse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swehouse.c; sourceTree = "<group>"; };
+		0468E45A26C1FD3800628ED4 /* swecl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swecl.c; sourceTree = "<group>"; };
+		0468E45B26C1FD3800628ED4 /* sweephe4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweephe4.h; sourceTree = "<group>"; };
+		0468E45C26C1FD3800628ED4 /* swenut2000a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swenut2000a.h; sourceTree = "<group>"; };
+		0468E45D26C1FD3800628ED4 /* swevents.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swevents.c; sourceTree = "<group>"; };
+		0468E45E26C1FD3800628ED4 /* sweph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sweph.c; sourceTree = "<group>"; };
+		0468E45F26C1FD3800628ED4 /* swedate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swedate.c; sourceTree = "<group>"; };
+		0468E46026C1FD3800628ED4 /* swetest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swetest.c; sourceTree = "<group>"; };
+		0468E46126C1FD3800628ED4 /* sweclips.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sweclips.c; sourceTree = "<group>"; };
+		0468E46226C1FD3800628ED4 /* swemplan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swemplan.c; sourceTree = "<group>"; };
+		0468E46326C1FD3800628ED4 /* swephlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swephlib.c; sourceTree = "<group>"; };
+		0468E46426C1FD3800628ED4 /* swejpl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swejpl.c; sourceTree = "<group>"; };
+		0468E46526C1FD3800628ED4 /* sweodef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweodef.h; sourceTree = "<group>"; };
+		0468E46626C1FD3800628ED4 /* swemini.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swemini.c; sourceTree = "<group>"; };
+		0468E46726C1FD3800628ED4 /* sweasp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sweasp.c; sourceTree = "<group>"; };
+		0468E46A26C1FD3800628ED4 /* sepl_18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_18.se1; sourceTree = "<group>"; };
+		0468E46C26C1FD3800628ED4 /* semo_18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_18.se1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +127,10 @@
 		0468E43126C1FCAB00628ED4 /* ASGEphemeris */ = {
 			isa = PBXGroup;
 			children = (
-				0468E43226C1FCAB00628ED4 /* ASGEphemeris.h */,
+				0468E44A26C1FD3800628ED4 /* ASGEphemerisGlue.h */,
+				0468E44926C1FD3800628ED4 /* ASGEphemerisGlue.m */,
+				0468E46826C1FD3800628ED4 /* Data */,
+				0468E44B26C1FD3800628ED4 /* swisseph */,
 				0468E43326C1FCAB00628ED4 /* Info.plist */,
 			);
 			path = ASGEphemeris;
@@ -86,6 +145,66 @@
 			path = ASGEphemerisTests;
 			sourceTree = "<group>";
 		};
+		0468E44B26C1FD3800628ED4 /* swisseph */ = {
+			isa = PBXGroup;
+			children = (
+				0468E44C26C1FD3800628ED4 /* swemptab.h */,
+				0468E44D26C1FD3800628ED4 /* swemmoon.c */,
+				0468E44E26C1FD3800628ED4 /* swevents.h */,
+				0468E44F26C1FD3800628ED4 /* sweephe4.c */,
+				0468E45026C1FD3800628ED4 /* swehouse.h */,
+				0468E45126C1FD3800628ED4 /* swephexp.h */,
+				0468E45226C1FD3800628ED4 /* sweph.h */,
+				0468E45326C1FD3800628ED4 /* swedate.h */,
+				0468E45426C1FD3800628ED4 /* swehel.c */,
+				0468E45526C1FD3800628ED4 /* swejpl.h */,
+				0468E45626C1FD3800628ED4 /* swephlib.h */,
+				0468E45726C1FD3800628ED4 /* swephgen4.c */,
+				0468E45826C1FD3800628ED4 /* swedll.h */,
+				0468E45926C1FD3800628ED4 /* swehouse.c */,
+				0468E45A26C1FD3800628ED4 /* swecl.c */,
+				0468E45B26C1FD3800628ED4 /* sweephe4.h */,
+				0468E45C26C1FD3800628ED4 /* swenut2000a.h */,
+				0468E45D26C1FD3800628ED4 /* swevents.c */,
+				0468E45E26C1FD3800628ED4 /* sweph.c */,
+				0468E45F26C1FD3800628ED4 /* swedate.c */,
+				0468E46026C1FD3800628ED4 /* swetest.c */,
+				0468E46126C1FD3800628ED4 /* sweclips.c */,
+				0468E46226C1FD3800628ED4 /* swemplan.c */,
+				0468E46326C1FD3800628ED4 /* swephlib.c */,
+				0468E46426C1FD3800628ED4 /* swejpl.c */,
+				0468E46526C1FD3800628ED4 /* sweodef.h */,
+				0468E46626C1FD3800628ED4 /* swemini.c */,
+				0468E46726C1FD3800628ED4 /* sweasp.c */,
+			);
+			path = swisseph;
+			sourceTree = "<group>";
+		};
+		0468E46826C1FD3800628ED4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0468E46926C1FD3800628ED4 /* Planetary */,
+				0468E46B26C1FD3800628ED4 /* Moon */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0468E46926C1FD3800628ED4 /* Planetary */ = {
+			isa = PBXGroup;
+			children = (
+				0468E46A26C1FD3800628ED4 /* sepl_18.se1 */,
+			);
+			path = Planetary;
+			sourceTree = "<group>";
+		};
+		0468E46B26C1FD3800628ED4 /* Moon */ = {
+			isa = PBXGroup;
+			children = (
+				0468E46C26C1FD3800628ED4 /* semo_18.se1 */,
+			);
+			path = Moon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +212,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0468E44026C1FCAB00628ED4 /* ASGEphemeris.h in Headers */,
+				0468E47426C1FD3800628ED4 /* swephexp.h in Headers */,
+				0468E48826C1FD3800628ED4 /* sweodef.h in Headers */,
+				0468E47526C1FD3800628ED4 /* sweph.h in Headers */,
+				0468E46E26C1FD3800628ED4 /* ASGEphemerisGlue.h in Headers */,
+				0468E47826C1FD3800628ED4 /* swejpl.h in Headers */,
+				0468E47F26C1FD3800628ED4 /* swenut2000a.h in Headers */,
+				0468E47126C1FD3800628ED4 /* swevents.h in Headers */,
+				0468E47E26C1FD3800628ED4 /* sweephe4.h in Headers */,
+				0468E46F26C1FD3800628ED4 /* swemptab.h in Headers */,
+				0468E47926C1FD3800628ED4 /* swephlib.h in Headers */,
+				0468E47B26C1FD3800628ED4 /* swedll.h in Headers */,
+				0468E47326C1FD3800628ED4 /* swehouse.h in Headers */,
+				0468E47626C1FD3800628ED4 /* swedate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0468E48C26C1FD3800628ED4 /* semo_18.se1 in Resources */,
+				0468E48B26C1FD3800628ED4 /* sepl_18.se1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +327,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0468E48D26C1FFA400628ED4 /* sweephe4.c in Sources */,
+				0468E48526C1FD3800628ED4 /* swemplan.c in Sources */,
+				0468E47026C1FD3800628ED4 /* swemmoon.c in Sources */,
+				0468E47726C1FD3800628ED4 /* swehel.c in Sources */,
+				0468E48126C1FD3800628ED4 /* sweph.c in Sources */,
+				0468E48726C1FD3800628ED4 /* swejpl.c in Sources */,
+				0468E46D26C1FD3800628ED4 /* ASGEphemerisGlue.m in Sources */,
+				0468E48626C1FD3800628ED4 /* swephlib.c in Sources */,
+				0468E47D26C1FD3800628ED4 /* swecl.c in Sources */,
+				0468E48226C1FD3800628ED4 /* swedate.c in Sources */,
+				0468E47C26C1FD3800628ED4 /* swehouse.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -357,8 +501,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.varianceinteractive.ASGEphemeris;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -381,8 +526,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.varianceinteractive.ASGEphemeris;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
