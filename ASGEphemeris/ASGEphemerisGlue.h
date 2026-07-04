@@ -36,9 +36,9 @@
 #pragma mark Library lifecycle
 // =========
 ASGE_PRIVATE ASGE_CONSTRUCTOR
-void _ASGELibraryInitialize();
+void _ASGELibraryInitialize(void);
 
 ASGE_PRIVATE ASGE_DESTRUCTOR
-void _ASGELibraryFinalize();
+void _ASGELibraryFinalize(void);
 
 #endif /* __ASGEphemerisGlue__ */
