@@ -653,6 +653,10 @@ int CALL_CONV swe_houses_armc_ex2(
       h.sundec = ascmc[9];
       saved_sundec = h.sundec;
     }
+    if (h.sundec < -24 || h.sundec > 24) {
+      sprintf(serr, "House system I (Sunshine) needs valid Sun declination in ascmc[9]");
+      return ERR;
+    }
   }
   retc = CalcH(armc, geolat, eps, (char)hsys, &h);
   cusp[0] = 0;
@@ -820,7 +824,7 @@ static double apc_sector(int n, double ph, double e, double az)
    return dret;
 }
 
-char *CALL_CONV swe_house_name(int hsys)
+const char *CALL_CONV swe_house_name(int hsys)
 {
   int h = hsys;
   if (h != 'i') h = toupper(h);
@@ -963,7 +967,9 @@ static int CalcH(
   } /*  if */
   hsp->mc = swe_degnorm(hsp->mc);
   if (hsp->do_speed) hsp->mc_speed = AscDash(th, 0, sine, cose); 
-  /* ascendant */
+  // ascendant
+  // In case of ascendant, the great circle is the horizon, which has pole height latitude.
+  // intersection equator horizon is at th + 90, reactasce 90° east of meridian.
   hsp->ac = Asc1(th + 90, fi, sine, cose);
   if (hsp->do_speed) 
     hsp->ac_speed = AscDash(th + 90, fi, sine, cose);
@@ -2045,7 +2051,7 @@ porphyry:
 
 /*****
  * oblique triangle formed by: great circle with pole height f, ecliptic and equator,
- * x = intersection equator - great circle.
+ * x = intersection equator - great circle, measured along equator.
  * return crossing of ecliptic with great circle.
  * Prepare quadrants before doing the work in Asc2.
  */
@@ -2087,7 +2093,8 @@ static double Asc1(double x1, double f, double sine, double cose)
  * f in range -90 .. +90
  * sine, cose around e=23°
  * oblique triangle formed by: great circle with pole height f, ecliptic and equator,
- * x = intersection equator - great circle.
+ * In case of ascendant, the great circle is the horizon, which has pole height latitude.
+ * x = intersection equator - great circle, measured along equator.
  * return crossing of ecliptic with great circle.
  */
 static double Asc2(double x, double f, double sine, double cose) 
