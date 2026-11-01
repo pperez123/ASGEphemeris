@@ -17,6 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0468E42E26C1FCAB00628ED4"
                BuildableName = "ASGEphemeris.framework"
+               BlueprintName = "ASGEphemeris"
                ReferencedContainer = "container:ASGEphemeris.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -35,6 +36,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0468E43726C1FCAB00628ED4"
                BuildableName = "ASGEphemerisTests.xctest"
+               BlueprintName = "ASGEphemerisTests"
                ReferencedContainer = "container:ASGEphemeris.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -63,6 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0468E42E26C1FCAB00628ED4"
             BuildableName = "ASGEphemeris.framework"
+            BlueprintName = "ASGEphemeris"
             ReferencedContainer = "container:ASGEphemeris.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
